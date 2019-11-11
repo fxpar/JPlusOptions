@@ -1,0 +1,32 @@
+{
+
+  "description": "Ecrit la date du lendemain dans la zone de texte en cours",
+  "manifest_version": 2,
+  "name": "J+Options",
+  "version": "0.0.0.2",
+  "homepage_url": "https://github.com/fxpar/JPlusSimple",
+  "icons": {
+    "48": "icons/icon48.png"
+  },
+  
+    "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+  
+    "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+
+"browser_action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  }
+
+}
